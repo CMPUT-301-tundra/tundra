@@ -3,7 +3,11 @@ package com.example.tundra;
 public abstract class Shape {
     private Integer x;
     private Integer y;
-    public String color = "yellow";
+
+    public String color = "pink";
+
+
+
     public Shape(Integer x, Integer y) {
         this.x = x;
         this.y = y;
